@@ -28,7 +28,7 @@ async function start() {
   browserSync({
     proxy: {
 
-      target: 'localhost:5000',
+      target: 'localhost:3000',
 
       middleware: [
         webpackDevMiddleware(bundler, {
